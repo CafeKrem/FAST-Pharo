@@ -11,9 +11,9 @@ BaselineOfFASTPharo >> baseline: spec [
 		for: #common
 		do: [ 
 			spec blessing: #baseline.
-			spec description: 'Developement version of FAST Pharo using FamixNG for Pharo.'.
-			spec author: 'BenoitVerhaeghe'.
-			spec timestamp: '26/05/2019 00:00'.
+			spec description: 'Developement version of FAST Pharo using scope to resolve symbol'.
+			spec author: 'Clément Dutriez'.
+			spec timestamp: '15/03/2021 00:00'.
 			self defineDependencies: spec.
 			self definePackages: spec.
 			self defineGroups: spec ]
@@ -25,7 +25,7 @@ BaselineOfFASTPharo >> defineDependencies: spec [
 		baseline: 'FAST'
 		with: [ spec
 				loads: #('default');
-				repository: 'github://moosetechnology/FAST:master/src' ].
+				repository: 'github://CafeKrem/FAST:feature/addScope/src' ].
 	spec
 		baseline: 'PetitParser'
 		with: [ spec
