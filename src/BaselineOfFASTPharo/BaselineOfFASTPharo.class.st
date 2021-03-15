@@ -25,7 +25,7 @@ BaselineOfFASTPharo >> defineDependencies: spec [
 		baseline: 'FAST'
 		with: [ spec
 				loads: #('default');
-				repository: 'github://CafeKrem/FAST:feature/addScope/src' ].
+				repository: 'github://CafeKrem/FAST:feature-addScope/src' ].
 	spec
 		baseline: 'PetitParser'
 		with: [ spec
